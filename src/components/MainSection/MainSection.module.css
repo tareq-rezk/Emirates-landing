@@ -1,0 +1,64 @@
+.header {
+  position: relative;
+  background: linear-gradient(to bottom, rgba(50, 62, 71, 0.1) 31%, #000000),
+    url("../../assets/images/Header_bg.png");
+  background-size: cover;
+  /* height: calc(100vh - 170px); */
+  height: 77vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header_desc {
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.header_btn {
+  transform: translateY(50%);
+  box-shadow: 20px 20px 60px 0 rgba(0, 0, 0, 0.4);
+}
+/* start how in works section */
+.H_Works {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  height: calc(100vh - 145px);
+  height: calc(100vh - 145px);
+}
+.Works_Answer {
+  background-color: #323e47;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.Works_img {
+  background: linear-gradient(226deg, #f21c2ec2 100%, #bb1c2948),
+    url("../../assets/images/car.jpg");
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Works_img img {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767.98px) {
+  .H_Works {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    height: unset;
+  }
+  .Works_img,
+  .Works_Answer {
+    padding: 100px 50px;
+  }
+}

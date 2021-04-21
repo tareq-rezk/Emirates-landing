@@ -1,0 +1,69 @@
+.RequiredProcedures {
+  background-color: #ffff;
+  padding: 100px 0;
+}
+
+.Procedures_wrap {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.Procedures_heading {
+}
+
+.Procedures_heading p {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #595f6f;
+  max-width: 70%;
+  margin: auto;
+  margin: 15px auto;
+}
+.Procedure_lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+.Procedure_lists ul {
+  list-style: none;
+}
+.Procedure_lists li {
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #595f6f;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 22px;
+}
+span.bolet {
+  background-color: #ec1c24;
+  font-weight: bold;
+  width: 10px;
+  height: 10px;
+  margin-right: 20px;
+  display: block;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+@media (max-width: 767.98px) {
+  .Procedure_lists {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

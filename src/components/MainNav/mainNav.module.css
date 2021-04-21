@@ -1,0 +1,27 @@
+.MainNav {
+  padding: 35px 10%;
+}
+.nav_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 575.98px) {
+  .MainNav {
+    padding: 20px 5%;
+  }
+  .nav_content {
+    flex-direction: column;
+  }
+  .nav_content img {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .MainNav {
+    padding: 35px 5%;
+  }
+  .nav_content {
+  }
+}

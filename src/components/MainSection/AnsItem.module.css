@@ -1,0 +1,27 @@
+.AnsItem {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.number {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 20px 20px 60px 0 rgb(0 0 0 / 40%);
+  background-image: linear-gradient(225deg, #ec1c24, #f91c3d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 22px;
+}
+.ansContent {
+  margin-left: 20px;
+}
+.ansContent span:first-child {
+  display: block;
+  margin-bottom: 9px;
+}
